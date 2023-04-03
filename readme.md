@@ -10,10 +10,12 @@ Each step of the pipeline will be saved to a CSV file in the `/data` folder.
 ## Running the pipeline
 
 Ensure that you have the following installed:
-    - Python 3.6
+
+    - Python
     - Luigi
     - Numpy
 
 To run the pipeline, simply run the following commands:
+
     - Start the Luigi scheduler: `luigid`
     - Run the pipeline: `python main.py`
